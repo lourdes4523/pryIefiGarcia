@@ -17,18 +17,18 @@ namespace pryIefiGarcia
         public string Operacion { get; set; }
         List<Producto> listaProductos;
         List<Venta> listaVentas;
-        public frmListado(string operacion, List<Producto> lista)
-        {
-            InitializeComponent();
-            this.Operacion = operacion;
-            this.listaProductos = lista;
-        }
-        public frmListado(string operacion, List<Venta> lista)
-        {
-            InitializeComponent();
-            this.Operacion = operacion;
-            this.listaVentas = lista;
-        }
+        //public frmListado(string operacion, List<Producto> lista)
+        //{
+        //    InitializeComponent();
+        //    this.Operacion = operacion;
+        //    this.listaProductos = lista;
+        //}
+        //public frmListado(string operacion, List<Venta> lista)
+        //{
+        //    InitializeComponent();
+        //    this.Operacion = operacion;
+        //    this.listaVentas = lista;
+        //}
 
         private void frmListado_Load(object sender, EventArgs e)
         {
