@@ -41,7 +41,6 @@
             this.columnID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnNombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnFechaRegistro = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.cmdListado = new System.Windows.Forms.Button();
             this.gbCargar.SuspendLayout();
             this.gbConsulta.SuspendLayout();
             this.SuspendLayout();
@@ -68,7 +67,7 @@
             this.gbCargar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.gbCargar.Location = new System.Drawing.Point(28, 120);
             this.gbCargar.Name = "gbCargar";
-            this.gbCargar.Size = new System.Drawing.Size(270, 175);
+            this.gbCargar.Size = new System.Drawing.Size(270, 275);
             this.gbCargar.TabIndex = 6;
             this.gbCargar.TabStop = false;
             this.gbCargar.Text = "Cargar Productos";
@@ -77,9 +76,9 @@
             // 
             this.cmdCargar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cmdCargar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdCargar.Location = new System.Drawing.Point(20, 108);
+            this.cmdCargar.Location = new System.Drawing.Point(6, 179);
             this.cmdCargar.Name = "cmdCargar";
-            this.cmdCargar.Size = new System.Drawing.Size(229, 33);
+            this.cmdCargar.Size = new System.Drawing.Size(229, 78);
             this.cmdCargar.TabIndex = 11;
             this.cmdCargar.Text = "Cargar";
             this.cmdCargar.UseVisualStyleBackColor = true;
@@ -126,10 +125,11 @@
             this.gbConsulta.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.gbConsulta.Location = new System.Drawing.Point(314, 131);
             this.gbConsulta.Name = "gbConsulta";
-            this.gbConsulta.Size = new System.Drawing.Size(368, 175);
+            this.gbConsulta.Size = new System.Drawing.Size(368, 264);
             this.gbConsulta.TabIndex = 13;
             this.gbConsulta.TabStop = false;
             this.gbConsulta.Text = "Consultar Productos";
+            this.gbConsulta.Enter += new System.EventHandler(this.gbConsulta_Enter);
             // 
             // cbProductos
             // 
@@ -170,27 +170,12 @@
             this.columnFechaRegistro.Text = "Fecha de Registro";
             this.columnFechaRegistro.Width = 180;
             // 
-            // cmdListado
-            // 
-            this.cmdListado.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.cmdListado.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cmdListado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdListado.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.cmdListado.Location = new System.Drawing.Point(224, 362);
-            this.cmdListado.Name = "cmdListado";
-            this.cmdListado.Size = new System.Drawing.Size(229, 33);
-            this.cmdListado.TabIndex = 14;
-            this.cmdListado.Text = "Listado";
-            this.cmdListado.UseVisualStyleBackColor = false;
-            this.cmdListado.Click += new System.EventHandler(this.cmdListado_Click);
-            // 
             // frmProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.cmdListado);
             this.Controls.Add(this.gbConsulta);
             this.Controls.Add(this.gbCargar);
             this.Controls.Add(this.lblTituloChico);
@@ -220,6 +205,5 @@
         private System.Windows.Forms.ColumnHeader columnID;
         private System.Windows.Forms.ColumnHeader columnNombre;
         private System.Windows.Forms.ColumnHeader columnFechaRegistro;
-        private System.Windows.Forms.Button cmdListado;
     }
 }

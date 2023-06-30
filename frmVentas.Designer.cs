@@ -37,7 +37,6 @@
             this.dtpFechaVenta = new System.Windows.Forms.DateTimePicker();
             this.lblFecha = new System.Windows.Forms.Label();
             this.lblProducto = new System.Windows.Forms.Label();
-            this.cmdListado = new System.Windows.Forms.Button();
             this.gbConsulta = new System.Windows.Forms.GroupBox();
             this.lvVentas = new System.Windows.Forms.ListView();
             this.columnID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -145,20 +144,6 @@
             this.lblProducto.Size = new System.Drawing.Size(50, 13);
             this.lblProducto.TabIndex = 6;
             this.lblProducto.Text = "Producto";
-            // 
-            // cmdListado
-            // 
-            this.cmdListado.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.cmdListado.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cmdListado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdListado.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.cmdListado.Location = new System.Drawing.Point(173, 415);
-            this.cmdListado.Name = "cmdListado";
-            this.cmdListado.Size = new System.Drawing.Size(229, 33);
-            this.cmdListado.TabIndex = 16;
-            this.cmdListado.Text = "Listado";
-            this.cmdListado.UseVisualStyleBackColor = false;
-            this.cmdListado.Click += new System.EventHandler(this.cmdListado_Click);
             // 
             // gbConsulta
             // 
@@ -283,7 +268,6 @@
             this.ClientSize = new System.Drawing.Size(690, 450);
             this.Controls.Add(this.gbFiltros);
             this.Controls.Add(this.gbConsulta);
-            this.Controls.Add(this.cmdListado);
             this.Controls.Add(this.gbCargar);
             this.Controls.Add(this.lblTituloChico);
             this.Name = "frmVentas";
@@ -310,7 +294,6 @@
         private System.Windows.Forms.DateTimePicker dtpFechaVenta;
         private System.Windows.Forms.Label lblFecha;
         private System.Windows.Forms.Label lblProducto;
-        private System.Windows.Forms.Button cmdListado;
         private System.Windows.Forms.GroupBox gbConsulta;
         private System.Windows.Forms.ListView lvVentas;
         private System.Windows.Forms.ColumnHeader columnID;

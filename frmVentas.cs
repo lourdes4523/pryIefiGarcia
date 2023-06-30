@@ -90,8 +90,7 @@ namespace pryIefiGarcia
 
         private void cmdListado_Click(object sender, EventArgs e)
         {
-            frmListado listado = new frmListado("Ventas", listaVentas);
-            listado.ShowDialog();
+            
         }
 
         private void txtCantidad_KeyPress(object sender, KeyPressEventArgs e)

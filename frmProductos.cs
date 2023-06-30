@@ -66,8 +66,12 @@ namespace pryIefiGarcia
         }
         private void cmdListado_Click(object sender, EventArgs e)
         {
-            frmListado listado = new frmListado("Productos", listaProductos);
-            listado.ShowDialog();
+            
+        }
+
+        private void gbConsulta_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
