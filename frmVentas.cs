@@ -103,5 +103,10 @@ namespace pryIefiGarcia
                 return;
             }
         }
+
+        private void frmVentas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

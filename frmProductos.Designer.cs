@@ -49,11 +49,11 @@
             // lblTituloChico
             // 
             this.lblTituloChico.AutoSize = true;
-            this.lblTituloChico.Font = new System.Drawing.Font("Niagara Solid", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTituloChico.Font = new System.Drawing.Font("Palatino Linotype", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloChico.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTituloChico.Location = new System.Drawing.Point(35, 19);
             this.lblTituloChico.Name = "lblTituloChico";
-            this.lblTituloChico.Size = new System.Drawing.Size(186, 68);
+            this.lblTituloChico.Size = new System.Drawing.Size(297, 86);
             this.lblTituloChico.TabIndex = 5;
             this.lblTituloChico.Text = "Productos";
             // 
@@ -188,6 +188,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.cmdListado);
             this.Controls.Add(this.gbConsulta);

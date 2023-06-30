@@ -35,10 +35,8 @@
             this.cmdVentas = new System.Windows.Forms.Button();
             this.cmdProductos = new System.Windows.Forms.Button();
             this.lblTituloGrande = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoGrande)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -51,7 +49,7 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(265, 450);
+            this.panelMenu.Size = new System.Drawing.Size(259, 449);
             this.panelMenu.TabIndex = 1;
             // 
             // lblTituloChico
@@ -112,30 +110,20 @@
             // lblTituloGrande
             // 
             this.lblTituloGrande.AutoSize = true;
-            this.lblTituloGrande.Font = new System.Drawing.Font("Bell MT", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTituloGrande.Font = new System.Drawing.Font("Palatino Linotype", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloGrande.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTituloGrande.Location = new System.Drawing.Point(325, 31);
+            this.lblTituloGrande.Location = new System.Drawing.Point(314, 188);
             this.lblTituloGrande.Name = "lblTituloGrande";
-            this.lblTituloGrande.Size = new System.Drawing.Size(317, 109);
+            this.lblTituloGrande.Size = new System.Drawing.Size(313, 131);
             this.lblTituloGrande.TabIndex = 5;
             this.lblTituloGrande.Text = "Ventas";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(303, 193);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(411, 245);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
             // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.ClientSize = new System.Drawing.Size(800, 449);
             this.Controls.Add(this.lblTituloGrande);
             this.Controls.Add(this.panelMenu);
             this.Name = "frmPrincipal";
@@ -144,7 +132,6 @@
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogoGrande)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -158,6 +145,5 @@
         private System.Windows.Forms.Button cmdVentas;
         private System.Windows.Forms.Button cmdProductos;
         private System.Windows.Forms.Label lblTituloGrande;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

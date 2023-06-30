@@ -44,11 +44,11 @@
             // lblTituloChico
             // 
             this.lblTituloChico.AutoSize = true;
-            this.lblTituloChico.Font = new System.Drawing.Font("Niagara Solid", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTituloChico.Font = new System.Drawing.Font("Palatino Linotype", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloChico.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTituloChico.Location = new System.Drawing.Point(12, 9);
+            this.lblTituloChico.Location = new System.Drawing.Point(34, -9);
             this.lblTituloChico.Name = "lblTituloChico";
-            this.lblTituloChico.Size = new System.Drawing.Size(142, 68);
+            this.lblTituloChico.Size = new System.Drawing.Size(225, 86);
             this.lblTituloChico.TabIndex = 6;
             this.lblTituloChico.Text = "Listado";
             // 
@@ -56,6 +56,7 @@
             // 
             this.dgvListado.AllowUserToAddRows = false;
             this.dgvListado.AllowUserToDeleteRows = false;
+            this.dgvListado.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dgvListado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListado.Location = new System.Drawing.Point(12, 80);
             this.dgvListado.Name = "dgvListado";
@@ -150,6 +151,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.gbFiltros);
             this.Controls.Add(this.lblInstrucciones);
